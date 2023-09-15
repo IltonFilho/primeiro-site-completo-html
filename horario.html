@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(84, 137, 216);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(70, 96, 240);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(90, 96, 240);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(70, 96, 240);
+    min-height: 150px;
+}
+    </style>
+    <style>
+        table{
+            -webkit-box-shadow: 12px 14px 15px 5px rgba(0,0,0,0.19); 
+            box-shadow: 12px 14px 15px 5px rgba(0,0,0,0.19);
+            border: solid 1px gray;
+        }
+      table thead th{
+        background-color:  black;
+        color: white;
+      }
+      table tfoot td{
+        background-color: lightgray;
+      }
+      table tbody tr:nth-child(even) td{
+        background-color: #f1f1f1;
+      }
+      table tbody tr:hover td{
+        background-color: #E9f1f1;
+        cursor: pointer;
+      } 
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <fieldset>
+                <center><img src="logo.jpg" width="90"><br></center>
+                <ul>
+                    <li><a href="paginaprincipal.html">Página Principal</a></li>
+                    <li><a href="sobreclinica.html">Sobre a clínica</a></li>
+                    <li><a href="horario.html">Horário de Atendimento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </fieldset>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <center><img src="horarioimg.png" width="150"></center>
+            </div>
+    
+            <div class="content">
+                <fieldset>
+                    <legend><strong><font size="5">Serviços</font></strong></legend>
+                    <p><b>Consultas Veterinárias:</b> Consultas regulares com um veterinário para exames de rotina, vacinações, aconselhamento nutricional e orientação sobre cuidados com o animal de estimação.</p>
+                    <p><b>Vacinação:</b> Administração de vacinas importantes para prevenir doenças comuns em animais, como raiva, parvovirose, cinomose, entre outras.</p>
+                    <p><b>Cirurgia:</b> Procedimentos cirúrgicos, como castração, esterilização, remoção de tumores, cirurgias ortopédicas e outros procedimentos cirúrgicos necessários.</p>
+                    <p><b>Tratamento de Emergência:</b> Atendimento de emergência para animais gravemente feridos, doentes ou em situações de risco.</p>
+                    <p><b>Creche para Animais:</b> Muitas clínicas também oferecem serviços de creche para animais de estimação, onde os animais podem socializar e se exercitar sob supervisão.</p>
+                </fieldset><br>
+                <table width="250" align="center" cellspacing="0" cellpadding="5">
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Dias</th>
+                            <th>Horário</th>
+                            <th>Valores</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Consultas</td>
+                            <td>Segunda à Sexta</td>
+                            <td>08:00h - 19:00h</td>
+                            <td>R$ 400,00</td>
+                        </tr>
+                        <tr>
+                            <td>Vacinação</td>
+                            <td>Segunda à Sexta</td>
+                            <td>08:00h - 19:00h</td>
+                            <td>R$ 700,00</td>
+                        </tr>
+                        <tr>
+                            <td>Cirurgia</td>
+                            <td>Segunda à Domingo</td>
+                            <td>08:00h - 19:00h</td>
+                            <td>R$ 8000,00</td>
+                        </tr>
+                        <tr>
+                            <td>Tratamento de Emergência</td>
+                            <td>Segunda à Domingo</td>
+                            <td>00:00h - 23:59h</td>
+                            <td>R$ 4000,00</td>
+                        </tr>
+                        <tr>
+                            <td>Creche</td>
+                            <td>Segunda à Domingo</td>
+                            <td>00:00h - 23:59h</td>
+                            <td>R$ 3000,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+    
+            <div class="footer">
+                <fieldset>
+                    <legend><strong><font size=4>Contatos</font></strong></legend>
+                    <ul>
+                    <li><label >E-mail: <e-mail>clinicabemconsigo@outlook.com</e-mail></label><br></li>
+                        <li><label>Whatsapp: <number>(85)989327367</number></label></li>
+                        <li>Instagram: @clinicabemconsigo</li>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(131, 156, 39);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(223, 243, 111);
+    min-height: 150px;
+}
+.content {
+    background-color:  rgb(223, 243, 111);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(131, 156, 39);
+    min-height: 150px;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <center><img src="logo.jpg" width="90"><br></center>
+            <ul>
+                <li><a href="paginaprincipal.html">Página Principal</a></li>
+                <li><a href="sobreclinica.html">Sobre a clínica</a></li>
+                <li><a href="horarioimg.png">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <center><img src="contatosvg.png" width="150"></center>
+            </div>
+    
+            <div class="content">
+                    <fieldset>
+                        <legend><b>Localizaçao</b></legend>
+                        <p>°Telefone de contato: <u>(85) 98932-3767</u></p>
+                        <p>°Endereço Completo: <u>Rua poti 720, Barra do Ceará</u>   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.4771112791614!2d-38.58627752584773!3d-3.7055379430545488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74a0e6c8c8947%3A0x90412166a5854c5!2sR.%20Poti%2C%20720%20-%20Barra%20do%20Cear%C3%A1%2C%20Fortaleza%20-%20CE%2C%2060331-340!5e0!3m2!1spt-BR!2sbr!4v1694719286697!5m2!1spt-BR!2sbr" width="100" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe></p>
+                        <fieldset>
+                            <legend><b><u>Formulário para contato</u></b></legend>
+                            <form onsubmit="" method="post">
+                                <label>Nome: </label><input type="text" name="name"><br>
+                                <label>E-mail: </label><input type="email" name="email"><br>      
+                                <label>Assunto: </label><input  type="text" name="subject"><br>
+                                <label>Messagem: </label> <textarea name="message" cols="30" rows="10"></textarea><br>
+                                <button type="submit">Enviar</button>
+                                <button type="reset">Limpar</button>
+                            </form>
+                        </fieldset>
+                    </fieldset>
+                
+            </div>
+    
+            <div class="footer">
+                <fieldset>
+                <legend><strong><font size=4>Contatos</font></strong></legend>
+                <ul>
+                   <li><label >E-mail: <e-mail>clinicabemconsigo@outlook.com</e-mail></label><br></li>
+                    <li><label>Whatsapp: <number>(85)989327367</number></label></li>
+                    <li>Instagram: @clinicabemconsigo</li>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
